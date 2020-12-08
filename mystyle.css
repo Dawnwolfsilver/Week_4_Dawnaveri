@@ -1,1 +1,150 @@
+/*Fonts************************************/
+@font-face {
+  font-family: "EastSeaDokdo";
+  src: url(East_Sea_Dokdo/EastSeaDokdo-Regular.ttf);
+}
+@font-face {
+  font-family: "KaushanScript";
+  src: url(Kaushan_Script/KaushanScript-Regular.ttf);
+}
+@font-face {
+  font-family: "Pacifico";
+  src: url(Pacifico/Pacifico-Regular.ttf);
+}
+/*****************************************/
+/*simage slider**************************/
+#slider {
+  overflow: hidden;
+}
 
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 30s "slider" infinite;
+}
+
+#slider figure img {
+width: 20%;
+float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+/**********************************************/
+/*body and content*****************************/
+body {
+  display:flex;
+  justify-content:center;
+  background: repeating-linear-gradient(45deg, #39a6ad, #ebf8e1 15%, #39a6ad 20%);
+}
+h1 {
+  font-family:"EastSeaDokdo";
+}
+p1{
+font-family: "Pacifico";
+}
+
+#Averysymbol {
+  display:flex;
+  justify-content:center;
+}
+#Averysymbol img {
+  width: 250px;
+  height: 250px;
+}
+
+#container {
+  position: relative;
+  top: 100px;
+  width: 1000px;
+  margin-bottom: 100px;
+}
+
+#MoonTears1 {
+  background-color: #859982;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 1000px;
+}
+
+#MoonTears2 {
+  background-color: #859982;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 1000px;
+}
+
+#CaféMeetUp1 {
+  background-color: #b8707f;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 1000px;
+  justify-content:center;
+}
+
+#CaféMeetUp2 {
+  background-color: #b8707f;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 1000px;
+}
+
+#CaféMeetUp3 {
+  background-color: #b8707f;
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 1000px;
+}
+
+ol {
+  font-family:"KaushanScript";
+	list-style-type: none;
+	margin-bottom: 10px;
+	padding: 16px;
+	background-color:#d1cab0;
+  display: flex;
+  justify-content:center;
+  width: 1000px;
+}
+
+li a {
+	display: flex;
+	color: black;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #9371a3
+}
+/****************************************/
